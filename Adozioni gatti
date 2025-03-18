@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adozioni Gatti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adozioni Gatti</h1>
+        <p>Trova un amico a quattro zampe e dagli una casa amorevole!</p>
+    </header>
+
+    <section class="gatti">
+        <div class="gatto">
+            <img src="gatto1.jpg" alt="Micio dolce">
+            <h2>Micio</h2>
+            <p>Età: 2 anni</p>
+            <p>Carattere: Affettuoso e giocherellone</p>
+        </div>
+
+        <div class="gatto">
+            <img src="gatto2.jpg" alt="Tigre curioso">
+            <h2>Tigre</h2>
+            <p>Età: 3 anni</p>
+            <p>Carattere: Indipendente e socievole</p>
+        </div>
+    </section>
+
+    <section class="contatti">
+        <h2>Contattaci</h2>
+        <form action="mailto:tuoemail@example.com" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="messaggio">Messaggio:</label>
+            <textarea id="messaggio" name="messaggio" required></textarea>
+
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+</body>
+</html> 
